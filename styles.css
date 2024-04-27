@@ -32,6 +32,15 @@
     padding-top: 4px;
 }
 
+.flex-container-5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 70px 100px 0px 100px;
+}
+
 .middle-selection {
     display: flex;
     flex-direction: row;
@@ -44,6 +53,7 @@
     color: #1F2937;
 }
 
+
 .box {
     outline: 5px solid #3882F6;
     border-radius: 20px;
@@ -54,6 +64,11 @@
 .box-2 {
     width: 150px;
     height: 150px;
+}
+
+.box-3 {
+    width: 700px;
+    height: 300px;
 }
 
 .header-items-bold {
@@ -94,11 +109,23 @@
     color: #1F2937;
 }
 
+.quote-text {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-author {
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
 
 .img-container {
     width: 400px;
     height: 200px;
-
 }
 
 img {
