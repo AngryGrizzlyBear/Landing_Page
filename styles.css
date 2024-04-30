@@ -186,3 +186,12 @@ ul {
     justify-content: space-between;
     gap: 25px;
 }
+
+
+
+a,
+a:hover,
+a:active,
+a:visited {
+    color: #E5E7EB;
+}
