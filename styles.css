@@ -137,10 +137,14 @@ header {
     margin: 0;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
 .button {
     background-color: #3882F6;
     border-radius: 20px;
-    color: #E5E7EB;
+    color: white;
     text-align: center;
     font-weight: bold;
     padding: 10px 10px 10px 10px;
@@ -205,4 +209,5 @@ a:hover,
 a:active,
 a:visited {
     color: #E5E7EB;
+    cursor: pointer;
 }
