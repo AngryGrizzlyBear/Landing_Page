@@ -119,12 +119,14 @@
 .secondary-items {
     color: #E5E7EB;
     font-size: 18px;
+    margin: 0;
 }
 
 .secondary-items-bold {
     font-weight: bolder;
     color: #E5E7EB;
     font-size: 22px;
+    margin: 0;
 }
 
 .button {
